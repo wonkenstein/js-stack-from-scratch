@@ -6,8 +6,8 @@
   "scripts": {
     "test": "eslint src && flow && jest --coverage",
     "start": "babel-node src",
-    // "precommit": "yarn test",
-    "prepush": "yarn test"
+    "precommit": "",
+    "prepush": "npm test"
   },
   "browserslist": [
     "> 1%"
